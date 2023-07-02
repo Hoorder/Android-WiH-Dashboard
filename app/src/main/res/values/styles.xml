@@ -1,0 +1,41 @@
+<resources>
+    <style name="MyTextViewStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">#12244e</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">50dp</item>
+        <item name="android:height">150dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="MyButtonStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">#05000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#12244e</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:minHeight">100dp</item>
+    </style>
+
+    <style name="homeAmountStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">480dp</item>
+        <item name="android:height">100dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#12244e</item>
+        <item name="android:background">#56DDDDDD</item>
+    </style>
+</resources>

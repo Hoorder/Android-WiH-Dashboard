@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:textStyle="italic"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    tools:context=".ui.home.HomeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/displayUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:width="480dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:text="Witaj Kamil."/>
+
+    <TextView
+        android:id="@+id/displayUserAmount"
+        style="@style/homeAmountStyle"
+        android:textColor="#000"
+        android:typeface="normal"
+        android:textStyle="italic"
+        android:text="Środki na koncie: \n 1 725, 00 PLN" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/displayFuneralThisYear"
+            style="@style/MyTextViewStyle"
+            android:text="Pogrzeby \n w tym roku:\n \n 88 szt." />
+
+        <TextView
+            android:id="@+id/displayFuneralThisMonth"
+            style="@style/MyTextViewStyle"
+            android:layout_marginStart="5dp"
+            android:text="Pogrzeby w tym \n miesiącu:\n \n 18 szt." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/displayFuneralToday"
+            style="@style/MyTextViewStyle"
+            android:text="Pogrzeby \n Dzisiaj:\n \n 1 szt." />
+
+        <TextView
+            android:id="@+id/displayFuneralLastYear"
+            style="@style/MyTextViewStyle"
+            android:layout_marginStart="5dp"
+            android:text="Pogrzeby w \n ubiegłym roku:\n \n 0 szt." />
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/myButtonAdd"-->
+<!--            style="@style/MyButtonStyle"-->
+<!--            android:text="Dodaj" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/myButtonStats"-->
+<!--            style="@style/MyButtonStyle"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:text="Statystyki" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/myButtonSearch"-->
+<!--            style="@style/MyButtonStyle"-->
+<!--            android:text="Szukaj" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/myButtonLogOut"-->
+<!--            style="@style/MyButtonStyle"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:text="Wyloguj" />-->
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>
+</ScrollView>
